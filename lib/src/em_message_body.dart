@@ -244,7 +244,8 @@ class EMImageMessageBody extends EMFileMessageBody {
 
   @override
   /// 文件名称
-  String get fileName => _imageFile.path;
+//   String get fileName => _imageFile.path;
+  String get fileName => "";
 
   @override
   /// @nodoc
